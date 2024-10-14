@@ -18,24 +18,23 @@ const CustomNavbar = () => {
         }
     }
     return (
-        <nav className='text-white bg-blue-600 h-14 py-2 px-10 flex justify-between items-center'>
-            <div className='brand text-2xl font-semibold'>
+        <nav className='text-white bg-blue-600 h-14 py-2 px-5 md:px-10 flex justify-between items-center'>
+            <div className='brand text-1xl md:text-2xl font-semibold'>
                 <h1><a href="/#!">Task Manager</a></h1>
             </div>
             <div>
                 {
                     contextUser.user!=undefined && (
-                        <ul className='flex space-x-5 font-semibold'>
-                            <Link href="/" className='hover:text-blue-200'>Home</Link>
+                        <ul className='flex text-sm space-x-2 md:space-x-5 md:text-2xl font-semibold'>
+                            <Link href="/" className='hidden sm:block hover:text-blue-200'>Home</Link>
                             <Link href="/add-task" className='hover:text-blue-200'>Add Task</Link>
                             <Link href="/show-task" className='hover:text-blue-200'>Show Task</Link>
-
                         </ul>
                     )
                 }
             </div>
             <div>
-                <ul className='flex space-x-5 font-semibold'>
+                <ul className='flex space-x-2 md:space-x-5 font-semibold'>
                     {
                         contextUser.user===undefined && (
                             <>
