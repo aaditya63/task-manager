@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react'
-import todosvg from '../../assets/todosvg.svg'
+import todosvg from '../../assets/todoSvg.svg'
 import Image from 'next/image';
 import { addTask } from '@/services/taskServices';
 import { toast } from 'react-toastify';
