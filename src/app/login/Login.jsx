@@ -37,7 +37,7 @@ export default function Login() {
     }
     return (
         <div className='grid grid-cols-12'>
-            <div className='col-span-4 col-start-5'>
+            <div className='col-span-10 col-start-2 md:col-span-4 md:col-start-5'>
                 <div className='py-5'>
                     <h1 className='text-3xl text-center'>Login Here</h1>
                     <form action="#!" onSubmit={loginHandler}>

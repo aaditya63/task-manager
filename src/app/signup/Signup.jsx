@@ -45,11 +45,11 @@ export default function Signup() {
         }
     }
     return (
-        <div className="grid grid-cols-12 my-10">
-            <div className="col-span-6 col-start-1 flex justify-center items-center">
-                <Image src={signupSvg} alt="Signup SVG" priority='false' style={{ height: "250px" }} />
+        <div className="md:grid md:grid-cols-12 my-10">
+            <div className="md:col-span-6 md:col-start-1 flex justify-center items-center">
+                <Image src={signupSvg} alt="Signup SVG" className="h-44 md:h-96" priority='false'  />
             </div>
-            <div className="col-span-5 col-start-7 border rounded-lg shadow shadow-gray-300 p-3">
+            <div className="col-span-5 col-start-7 border rounded-lg shadow shadow-gray-300 p-8 md:p-3">
                 <form action="" onSubmit={signupHandler}>
                     <div>
                         <h1 className="text-2xl text-center">Signup Here</h1>
