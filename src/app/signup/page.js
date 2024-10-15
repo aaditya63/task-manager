@@ -1,7 +1,7 @@
 import Signup from "./Signup";
 
 export const metadata = {
-    title:"Signup : Work Manager"
+    title:"Signup : Task Manager"
 }
 export default function signup(){
     return(

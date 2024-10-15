@@ -1,6 +1,6 @@
 import Image from "next/image";
-export const metadata = {                         ///////////////NEW THING
-  title:"Home : Work Manager"
+export const metadata = {                         
+  title:"Home : Task Manager"
 }
 export default function Home() {
   return (

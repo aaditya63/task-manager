@@ -72,7 +72,7 @@ export default function Signup() {
                                 id='user_about' name='user_about' onChange={(e) => { setUser({ ...user, about: e.target.value }) }} value={user.about}></textarea>
                         </div>
                         <div className="my-2">
-                            <input disabled type="text" placeholder="Enter Profile URL" className='w-full border p-3 rounded-2xl bg-gray-300'
+                            <input disabled type="text" placeholder="Enter Profile URL" className='hidden w-full border p-3 rounded-2xl bg-gray-300'
                                 id='profileURL' name='profileURL' onChange={(e) => { setUser({ ...user, profileURL: e.target.value }) }} value={user.profileURL} />
                         </div>
                     </div>
