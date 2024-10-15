@@ -46,7 +46,7 @@ const ShowTask = () => {
     }
     return (
         <div className='grid grid-cols-12 mt-3'>
-            <div className='col-span-8 col-start-3'>
+            <div className='col-span-10 col-start-2 md:col-span-8 md:col-start-3'>
                 <h1 className="text-3xl text-center">Your Tasks({tasks.length})</h1>
                 {tasks.map((task)=>(
                     <Task task={task} key={task._id} deleteTaskParent={deleteTaskParent}/>

@@ -52,7 +52,7 @@ const AddTask = () => {
 
   return (
     <div className='grid grid-cols-12'>
-      <div className=' col-span-6 col-start-4 border shadow shadow-gray-300 rounded-3xl p-3 my-5'>
+      <div className='col-span-10 col-start-2 md:col-span-6 md:col-start-4 border shadow shadow-gray-300 rounded-3xl p-3 my-5'>
       <Image src={todosvg} alt='Img is Loading' priority='false' style={{height:"90px"}}/>
         <h1 className='text-center'>Add your Task here!</h1>
         <form action="#!" onSubmit={handleAddTask}>
